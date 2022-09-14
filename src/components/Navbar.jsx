@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 const Navbar = () => {
     return ( 
         <nav>
@@ -8,9 +10,9 @@ const Navbar = () => {
                 <button>search</button>
             </div>
             
-            <a href="">Home</a>
+            <Link to="/">Home</Link>
             
-            <a href="">Create new Movie</a>
+            <Link to="/create">Create new Movie</Link>
             
             
         </nav>
