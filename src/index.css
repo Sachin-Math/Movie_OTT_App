@@ -50,3 +50,30 @@ nav{
     }
     
 }
+.movie-details{
+    max-width: 800px;
+    margin: auto;
+}
+.add{
+    max-width: 800px;
+    margin: auto;
+    height: 200vh;
+}
+.add form{
+    display: grid;
+    grid-template-columns:200px 300px ;
+    row-gap: 15px;
+    padding: 10px;
+    border:  solid 2px black;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.add form label{
+    font-size: 20px;
+}
+.add form input{
+    font-size: 20px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
