@@ -16,21 +16,21 @@ const Addmovie = () => {
     
     let handleSubmit = (e) => {
         e.preventDefault();
-        
-        let newMovie = { movieName, hero, director, genere, ratings, poster, trailer, story };
-        
-        fetch("http://localhost:4000/movies",
-            {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(newMovie)
-            }
+
+        let newMovie = {movieName,hero,director,genere,ratings,trailer,poster,story};
+
+        fetch("http://localhost:4000/movies" , 
+        {
+            method:"POST",
+            headers:{"Content-Type":"application/json"},
+            body:JSON.stringify(newMovie)
+        } 
         )
-            .then(() => {
-                alert("new movie added");
-                history.push("/")
-                // window.location.reload()
-            })
+        .then(()=>{
+            alert("new movie added");
+            history.push("/");
+        })
+        
     }
     
     

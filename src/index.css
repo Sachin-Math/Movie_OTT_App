@@ -54,6 +54,13 @@ nav{
     max-width: 800px;
     margin: auto;
 }
+.movie-details div button{
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+
 .add{
     max-width: 800px;
     margin: auto;

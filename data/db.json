@@ -56,15 +56,15 @@
       "id": 5
     },
     {
-      "movieName": "smaple",
-      "hero": "smaple",
-      "director": "smaple",
-      "genere": "smaple",
+      "movieName": "abcd",
+      "hero": "prhabdhudeva",
+      "director": "prhabdhudeva",
+      "genere": "dance drama",
       "ratings": "3",
-      "poster": "https://en.wikipedia.org/wiki/Brahm%C4%81stra:_Part_One_%E2%80%93_Shiva",
-      "trailer": "https://en.wikipedia.org/wiki/Brahm%C4%81stra:_Part_One_%E2%80%93_Shiva",
-      "story": "Brahmāstra: Part One – Shiva (pronounced [bɾəʱmaːst̪ɾ]) is a 2022 Indian Hindi-language fantasy action-adventure film[b] written and directed by Ayan Mukerji. It is produced by Karan Johar, Apoorva Mehta, Namit Malhotra, and Mukerji – in his debut production – under the production companies Dharma Productions, Starlight Pictures, and Prime Focus in association with Star Studios, along with Ranbir Kapoor and Marijke DeSouza. The film serves as the first instalment of a planned trilogy, which is itself planned to be part of a cinematic universe titled Astraverse. It stars Amitabh Bachchan, Ranbir Kapoor, Alia Bhatt, Mouni Roy, and Nagarjuna Akkineni. Drawing inspiration from stories in Hindu mythology, the film follows Shiva, an orphan with pyrokinetic powers who discovers that he is an astra, a weapon of enormous energy. He attempts to prevent the strongest of the astras, the Brahmāstra, from falling into the hands of dark forces that share a history with him.\n\n",
-      "id": 6
+      "trailer": "https://en.wikipedia.org/wiki/ABCD:_American_Born_Confused_Desi_(2019_film)",
+      "poster": "https://en.wikipedia.org/wiki/ABCD:_American_Born_Confused_Desi_(2019_film)",
+      "story": "ABCD: American Born Confused Desi is an Indian Telugu-language drama film directed by Sanjeev Reddy and produced by Madhura Sreedhar Reddy.[1] The film stars Allu Sirish and Rukshar Dhillon. The phrase American-Born Confused Desi describes Indians born in America, who have difficulty in balancing their ethnic culture within the majority non-Indian American culture.[2] The film is a remake of the Malayalam film of the same name and was released on 17 May 2019.[3][4]",
+      "id": 7
     }
   ]
 }
