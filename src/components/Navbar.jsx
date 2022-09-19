@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
-    const [searchVal, setSearchVal] = useState("");
+    const [searchVal, setSearchVal] = useState();
 
     return ( 
         <nav>
@@ -19,7 +19,9 @@ const Navbar = () => {
             </div>
             
             <Link to="/">Home</Link>
-            
+
+            <Link to="/wish">Wish List</Link>
+
             <Link to="/create">Create new Movie</Link>
             
             

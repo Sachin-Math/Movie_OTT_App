@@ -1,4 +1,4 @@
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory, useParams , Link} from "react-router-dom";
 import useFetch from "./useFetch";
 
 const Moviedetails = () => {
@@ -29,6 +29,10 @@ const Moviedetails = () => {
             {pending && <div className="loader"></div>  }
             {movie &&
                 <div>
+                    <img src={movie.poster} alt="not found"  />
+                    <br />
+                    <iframe width="560" height="315" src={movie.trailer} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
                     <h1>Movie Name : {movie.movieName} </h1>
                     <hr />
                     <h2>Hero : {movie.hero} </h2>
@@ -37,6 +41,11 @@ const Moviedetails = () => {
                     <p>Stoty line : {movie.storyLine}</p>
 
                     <button onClick={handleDelete}> Delete </button>
+
+                    <Link to={`/update${movie.id}`}>
+                        <button>Update movie</button> 
+                    </Link> 
+
                 </div>
             } 
         </div>

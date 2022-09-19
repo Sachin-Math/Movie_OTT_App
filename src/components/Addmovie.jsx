@@ -30,7 +30,6 @@ const Addmovie = () => {
             alert("new movie added");
             history.push("/");
         })
-        
     }
     
     

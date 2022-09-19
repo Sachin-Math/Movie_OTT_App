@@ -1,8 +1,19 @@
 
+import { useEffect } from 'react';
 import Movieslist from './Movieslist';
 import useFetch from './useFetch';
 
 const Home = () => {
+
+  useEffect(()=>{
+    if( localStorage.getItem("wishList")== null)
+    {
+        localStorage.setItem("wishList" , "[]" );
+    }
+
+  } , [] )
+
+
   
     let {data : movies  , pending , error} = useFetch("http://localhost:4000/movies");
 
